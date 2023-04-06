@@ -1,8 +1,21 @@
-> Hello, first of all, thanks for the opportunity of learning more about SIG
-> Network. I would love to hear your story so could you please tell us a bit
-> about yourself, your role, and how you got involved in SIG Network?
+---
+layout: blog
+title: "Spotlight on SIG Network"
+slug: sig-network-spotlight
+date: ## Add merge date here
+slug: sig-network-spotlight-2023
+author: "Sujay Dey"
+---
 
-Hello! Thank you for reaching out.
+Networking is one of the core pillars of Kubernetes and SIG Network, or the Kubernetes Special Interest Group for Networking, is responsible for developing and maintaining the networking features of Kubernetes. It takes care of all aspects to ensure Kubernetes provides a reliable and scalable network infrastructure for containerized applications.
+
+In this SIG Network spotlight, [Sujay Dey](https://twitter.com/Sujaystwt) talked with [Shane Utt](https://twitter.com/ShaneUtt), Software Engineer at Kong, chair of SIG Network and maintainer of Gateway API, on different aspects of the SIG, what are the exciting things going on and how anyone can get involved and contribute.
+
+**Sujay**: Hello, first of all, thanks for the opportunity of learning more about SIG
+Network. I would love to hear your story so could you please tell us a bit
+about yourself, your role, and how you got involved in Kubernetes, especially in SIG Network?
+
+**Shane**: Hello! Thank you for reaching out.
 
 My Kubernetes journey started while I was working for a small data center: we
 were early adopters of Kubernetes and focused on using Kubernetes to provide
@@ -24,10 +37,9 @@ technology continues to flourish.
 [kong]:https://konghq.com/
 [gwapi]:https://gateway-api.sigs.k8s.io/
 
-> What's going on in SIG Network today, and where can people jump in and
-> contribute?
+**Sujay**: I have to say, that was a really interesting journey! Now let's talk a bit more about sig-network. Since we know that SIG Network covers a lot of grounds, so could you please highlight its scope and current focus areas?
 
-For those who may be uninitiated: SIG Network is responsible for the components,
+**Shane**: For those who may be uninitiated: SIG Network is responsible for the components,
 interfaces, and APIs which expose networking capabilities to Kubernetes users
 and workloads. The [charter][net-charter] is a pretty good indication of our
 scope, but I can add some additional highlights on some of our current areas of
@@ -94,19 +106,24 @@ community meetings and `#sig-network-gateway-api` on Kubernetes Slack.
 
 ---
 
-This is a non-exhaustive highlight of sub-projects. For help getting started
+This is a non-exhaustive highlight of sub-projects.
+
+**Sujay**: Couldn’t agree more, I didn’t feel exhausted for a single moment rather it was a very informative description. As you have already mentioned about the sig channels to get involved, would you like to mention anything about where people like beginners can jump in and contribute?
+
+
+**Shane**: For help getting started
 [Kubernetes Slack][kslack] is a great place to talk to community members and
 includes several `#sig-network-<project>` channels as well as our main
-`#sig-network` channel. Also check for issues labeled `good-first-issue` if
+`#sig-network` channel. Also, check for issues labeled `good-first-issue` if
 you prefer to just dive right into the repositories. Let us know how we can
 help you!
 
 [net-charter]:https://github.com/kubernetes/community/blob/master/sig-network/charter.md
 [kslack]:https://kubernetes.slack.com/
 
-> What skills are contributors to SIG Network likely to learn?
+**Sujay**: What skills are contributors to SIG Network likely to learn?
 
-To me, it feels limitless. Practically speaking it's very much up to the
+**Shane**: To me, it feels limitless. Practically speaking it's very much up to the
 individual what they _want_ to learn. However, If you simply intend to learn as
 much as you possibly can about networking SIG Network is a great place to join
 in and grow your knowledge.
@@ -121,5 +138,7 @@ of background you can imagine. This is a great place to share ideas and raise
 proposals, improving your skills in design as well as alignment and consensus
 building.
 
-There's a wealth of opportunities here in SIG Network. There's lots of places
+There's a wealth of opportunities here in SIG Network. There are lots of places
 to jump in, and the learning opportunities are boundless.
+
+**Sujay**: Thanks a lot! it was really great discussion with you, I got to know soo many great things about sig-network. I hope many people will find this useful just like I did.
