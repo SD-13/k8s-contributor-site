@@ -55,7 +55,7 @@ implementations on the rise in recent years. To try and give provisions to these
 implementations (and also provide some areas of alignment so that implementations
 do not become too disparate from each other) upstream Kubernetes efforts are
 underway to create a more modular public interface for `kube-proxy`. The
-intention is for implementations to join in around  a common set of libraries and
+intention is for implementations to join in around a common set of libraries and
 speak a common language. This area of focus is known as the KPNG project, if this
 sounds interesting to you, please join us in the KPNG [community meetings][meet]
 and `#sig-network-kpng` on [Kubernetes Slack][kslack].
@@ -108,7 +108,7 @@ community meetings and `#sig-network-gateway-api` on Kubernetes Slack.
 
 This is a non-exhaustive highlight of sub-projects.
 
-**Sujay**: Couldn’t agree more, I didn’t feel exhausted for a single moment rather it was a very informative description. As you have already mentioned about the sig channels to get involved, would you like to mention anything about where people like beginners can jump in and contribute?
+**Sujay**: Couldn’t agree more! it was a very informative description, thanks for highlighting them so nicely. As you have already mentioned about the sig channels to get involved, would you like to mention anything about where people like beginners can jump in and contribute?
 
 
 **Shane**: For help getting started
