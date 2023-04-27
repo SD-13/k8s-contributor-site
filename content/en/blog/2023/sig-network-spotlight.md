@@ -7,9 +7,9 @@ slug: sig-network-spotlight-2023
 author: "Sujay Dey"
 ---
 
-Networking is one of the core pillars of Kubernetes and SIG Network, or the Kubernetes Special Interest Group for Networking, is responsible for developing and maintaining the networking features of Kubernetes. It takes care of all aspects to ensure Kubernetes provides a reliable and scalable network infrastructure for containerized applications.
+Networking is one of the core pillars of Kubernetes and the Special Interest Group for Networking(SIG Network), is responsible for developing and maintaining the networking features of Kubernetes. It takes care of all aspects to ensure Kubernetes provides a reliable and scalable network infrastructure for containerized applications.
 
-In this SIG Network spotlight, [Sujay Dey](https://twitter.com/Sujaystwt) talked with [Shane Utt](https://twitter.com/ShaneUtt), Software Engineer at Kong, chair of SIG Network and maintainer of Gateway API, on different aspects of the SIG, what are the exciting things going on and how anyone can get involved and contribute.
+In this SIG Network spotlight, [Sujay Dey](https://twitter.com/Sujaystwt) talked with [Shane Utt](https://twitter.com/ShaneUtt), Software Engineer at Kong, chair of SIG Network and maintainer of Gateway API, on different aspects of the SIG, what are the exciting things going on and how anyone can get involved and contribute here.
 
 **Sujay**: Hello, first of all, thanks for the opportunity of learning more about SIG
 Network. I would love to hear your story so could you please tell us a bit
@@ -37,7 +37,7 @@ technology continues to flourish.
 [kong]:https://konghq.com/
 [gwapi]:https://gateway-api.sigs.k8s.io/
 
-**Sujay**: I have to say, that was a really interesting journey! Now let's talk a bit more about sig-network. Since we know that SIG Network covers a lot of grounds, so could you please highlight its scope and current focus areas?
+**Sujay**: I have to say, that was a really interesting journey! Now let's talk a bit more about SIG Network. Since we know that it covers a lot of grounds, so could you please highlight its scope and current focus areas?
 
 **Shane**: For those who may be uninitiated: SIG Network is responsible for the components,
 interfaces, and APIs which expose networking capabilities to Kubernetes users
@@ -45,7 +45,7 @@ and workloads. The [charter][net-charter] is a pretty good indication of our
 scope, but I can add some additional highlights on some of our current areas of
 focus:
 
-### KubeProxy / KPNG
+**KubeProxy/KPNG**
 
 Those who are familiar with Kubernetes will be familiar with the `Service` API
 which enables exposing a group of `Pods` over a network. The current standard
@@ -63,7 +63,7 @@ and `#sig-network-kpng` on [Kubernetes Slack][kslack].
 [meet]:https://github.com/kubernetes/community/blob/master/sig-network/README.md#meetings
 [kslack]:https://kubernetes.slack.com/
 
-### Multi-Network
+**Multi-Network**
 
 Today one of the primary requirements for Kubernetes networking is to achieve
 connectivity between `Pods` in a cluster, satisfying a large number of
@@ -76,7 +76,7 @@ some of the lower-level details of `Pod` networking or have relevant use cases
 join us in the Multi-Network community meetings and `#sig-network-multi-network`
 on Kubernetes Slack.
 
-### Network Policy
+**Network Policy**
 
 The `NetworkPolicy` API sub-group was formed to address network security beyond
 the well-known version 1 of the `NetworkPolicy` resource. We've also been
@@ -87,7 +87,7 @@ particularly interested in security and CNI, please feel free to join our
 community meetings and the `#sig-network-policy-api` channel on Kubernetes
 Slack.
 
-### Gateway API
+**Gateway API**
 
 If you're particularly interested in **ingress** or **mesh** networking the
 Gateway API may be a sub-project you would enjoy. In Gateway API we're actively
@@ -103,8 +103,6 @@ compiling existing `Ingress` resources to equivalent Gateway API resources and
 dataplane and is intended as a testing and reference implementation. If this
 sounds interesting to you we'd love to have you join us in our Gateway API
 community meetings and `#sig-network-gateway-api` on Kubernetes Slack.
-
----
 
 This is a non-exhaustive highlight of sub-projects.
 
@@ -141,4 +139,4 @@ building.
 There's a wealth of opportunities here in SIG Network. There are lots of places
 to jump in, and the learning opportunities are boundless.
 
-**Sujay**: Thanks a lot! it was really great discussion with you, I got to know soo many great things about sig-network. I hope many people will find this useful just like I did.
+**Sujay**: Thanks a lot! it was really great discussion with you, I got to know soo many great things about SIG Network. I hope many people will find this useful just like I did.
